@@ -17,7 +17,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class PacketManager extends EasyThread
 {
-	private static final String PACKET_HANDLER_THREAD = "easy-netty - PacketHandler";
+	private static final String PACKET_HANDLER_THREAD = "easy-netty - PacketManager";
 	private static final String OPCODE_IS_ALREADY_HANDLED = "opcode [%s] is already handled";
 	private static final String UNHANDLED_PACKET_OPCODE = "unhandled packet - opcode [{}]";
 
